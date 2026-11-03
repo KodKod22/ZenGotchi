@@ -2,7 +2,7 @@
 
 ZenGotchi turns your study time into food for your pet: every hour away from your phone helps it grow, and a short basketball mini-game is the break between study sessions.
 
-**Unity 6 · iOS · portrait, one thumb · solo developer · 3 levels**
+**Unity 6 · Android · portrait, one thumb · solo developer · 3 levels**
 
 ## Core loop
 The pet shoots a basketball at a hoop with a one-finger swipe: aim, release, score. 15 shots per level (about 90 seconds).
