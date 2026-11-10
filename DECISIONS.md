@@ -28,6 +28,22 @@ Who: Yuval
 
 <!-- Your entries start here -->
 
+## 2026-11-10 — Boosters in Hoops: three design-only placeholders
+
+Options: no boosters / boosters earned only by studying / design-only placeholder buttons, logic decided later
+Chose: three placeholder booster buttons at the bottom of the Hoops screen: extra shot, extra time, freeze time; design only, no logic yet
+Why: boosters help the player reach a higher score in the mini-game
+AI: offered the three options and drew the booster icons in the same style as the rest of the art; I chose the placeholders and picked the three boosters myself
+Who: Kody
+
+## 2026-11-10 — Minimum API Level 29
+
+Options: API 26 (Unity default) / API 29 / a higher level
+Chose: API 29
+Why: only a small share of users is left out
+AI: set the value in Player Settings; the choice and the reason are mine
+Who: Kody
+
 ## 2026-11-07 — Home screen: one Play button, shop through the coins
 
 Options: three equal bottom buttons (study times / games / shop) / a game-selection screen before Hoops / one big Play button straight to Hoops
