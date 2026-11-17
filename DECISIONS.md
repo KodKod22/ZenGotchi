@@ -28,6 +28,14 @@ Who: Yuval
 
 <!-- Your entries start here -->
 
+## 2026-11-17 — Settings screen: a panel over Home, not a new scene
+
+Options: a separate Settings scene / a panel that opens over Home in the same scene
+Chose: a panel over Home, opened by the gear button and closed with an X
+Why: saves another scene in the game, and in mobile games settings are usually a floating window over the current screen
+AI: offered both options; I chose the panel. Claude then built the panel in the Home scene file and wrote the SettingToggle script, and I reviewed and tested it in Play mode
+Who: Kody
+
 ## 2026-11-10 — Boosters in Hoops: three design-only placeholders
 
 Options: no boosters / boosters earned only by studying / design-only placeholder buttons, logic decided later
