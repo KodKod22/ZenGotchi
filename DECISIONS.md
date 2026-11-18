@@ -28,6 +28,14 @@ Who: Yuval
 
 <!-- Your entries start here -->
 
+## 2026-11-18 — Study coins computed on return, not in the background
+
+Options: code that runs in the background while the app is closed / save the close time and compute the coins on return
+Chose: save the close time and compute on return; returning before the session ends breaks it, with no coins
+Why: Android limits running code in the background
+AI: the lecturer's feedback suggested computing on return; Claude wrote the pitch wording, the rule for a broken session is mine
+Who: Kody
+
 ## 2026-11-17 — Settings screen: a panel over Home, not a new scene
 
 Options: a separate Settings scene / a panel that opens over Home in the same scene
