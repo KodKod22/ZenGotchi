@@ -28,3 +28,13 @@ MonoBehaviour:
     hoopSpeed: 0.8
   - targetHits: 5
     hoopSpeed: 1.1
+  startRadius: 1.5
+  minSwipe: 0.5
+  powerPerUnit: 1.5
+  aimPerUnit: 1.5
+  flightSeconds: 0.9
+  arcHeight: 2
+  farScale: 0.6
+  hitToleranceX: 0.55
+  hitToleranceY: 0.8
+  fallSeconds: 0.5
