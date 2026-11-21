@@ -404,6 +404,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca307aeeaca914c8287dd686c3804f57, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Bootstrap
+  economy: {fileID: 11400000, guid: dfe9c4563473e4c6892a683c38a3adb7, type: 2}
+  hoops: {fileID: 11400000, guid: 7324a950e17724b54812d8dfe3e43796, type: 2}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27668444ad72a446083728b52f96037e, type: 3}
+  m_Name: EconomyConfig
+  m_EditorClassIdentifier: ZenGotchi.Services::EconomyConfig
+  coinsPerStar: 5
+  coinsPerStudyHour: 5
+  dailyGift: 5
+  adReward: 10
+  foodPrice: 5
+  lookPrice: 10
+  toolPrice: 15
+  upgradeBaseCost: 10
+  upgradeGrowth: 1.25
+  upgradeMaxLevel: 8
+  fullnessPerMeal: 25
+  hoursToEmpty: 12
+  hoursToEmptyPerUpgrade: 1.2
+  sleepStartHour: 22
+  sleepEndHour: 6
