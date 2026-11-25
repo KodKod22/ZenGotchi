@@ -16,9 +16,35 @@ MonoBehaviour:
   coinsPerStudyHour: 5
   dailyGift: 5
   adReward: 10
-  foodPrice: 5
-  lookPrice: 10
-  toolPrice: 15
+  shopItems:
+  - name: Apple
+    category: 0
+    price: 5
+    comingSoon: 0
+  - name: Sandwich
+    category: 0
+    price: 8
+    comingSoon: 0
+  - name: Cake
+    category: 0
+    price: 12
+    comingSoon: 0
+  - name: Hat
+    category: 1
+    price: 10
+    comingSoon: 1
+  - name: Scarf
+    category: 1
+    price: 15
+    comingSoon: 1
+  - name: Ball
+    category: 2
+    price: 15
+    comingSoon: 1
+  - name: Toy
+    category: 2
+    price: 20
+    comingSoon: 1
   upgradeBaseCost: 10
   upgradeGrowth: 1.25
   upgradeMaxLevel: 8

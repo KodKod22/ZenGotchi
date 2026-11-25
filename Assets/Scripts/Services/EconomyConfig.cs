@@ -11,10 +11,17 @@ public class EconomyConfig : ScriptableObject
     public int dailyGift = 5;
     public int adReward = 10;                   // rewarded ad, later in the course
 
-    [Header("Shop, fixed prices")]
-    public int foodPrice = 5;
-    public int lookPrice = 10;
-    public int toolPrice = 15;
+    [Header("Shop: every item, by category")]
+    public ShopItem[] shopItems =
+    {
+        new ShopItem { name = "Apple",    category = ShopCategory.Food,    price = 5 },
+        new ShopItem { name = "Sandwich", category = ShopCategory.Food,    price = 8 },
+        new ShopItem { name = "Cake",     category = ShopCategory.Food,    price = 12 },
+        new ShopItem { name = "Hat",      category = ShopCategory.Clothes, price = 10, comingSoon = true },
+        new ShopItem { name = "Scarf",    category = ShopCategory.Clothes, price = 15, comingSoon = true },
+        new ShopItem { name = "Ball",     category = ShopCategory.Tools,   price = 15, comingSoon = true },
+        new ShopItem { name = "Toy",      category = ShopCategory.Tools,   price = 20, comingSoon = true },
+    };
 
     [Header("Food upgrade, the big sink")]
     public int upgradeBaseCost = 10;
@@ -37,4 +44,15 @@ public class EconomyConfig : ScriptableObject
     // Hours for a full bar to empty at this upgrade level.
     public float HoursToEmpty(int upgradeLevel) =>
         hoursToEmpty + hoursToEmptyPerUpgrade * upgradeLevel;
+}
+
+public enum ShopCategory { Food, Clothes, Tools }
+
+[System.Serializable]
+public class ShopItem
+{
+    public string name;
+    public ShopCategory category;
+    public int price;
+    public bool comingSoon;     // shown with its price, but not for sale yet
 }
