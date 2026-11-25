@@ -28,6 +28,14 @@ Who: Yuval
 
 <!-- Your entries start here -->
 
+## 2026-11-25 — Shop button at the bottom, next to Play
+
+Options: open the shop by tapping the coins (the 2026-11-07 decision) / a shop button at the top / a shop button at the bottom next to Play
+Chose: a Shop button at the bottom next to Play, the same size; tapping the coins no longer opens the shop. Replaces "Home screen: one Play button, shop through the coins" from 2026-11-07
+Why: one clear place for upgrades and buying, next to Play
+AI: Claude suggested a shop panel opened by the coins, to keep Play as the only bottom button; I chose a bottom button instead. Claude wrote the shop code and the wording of this entry
+Who: Kody
+
 ## 2026-11-18 — Study coins computed on return, not in the background
 
 Options: code that runs in the background while the app is closed / save the close time and compute the coins on return

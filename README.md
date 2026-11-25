@@ -20,6 +20,11 @@ Bootstrap is the first scene. It starts the services in order (Save, then Settin
 which needs Save) and then loads Home. Screens reach the services only through
 `Services`; details and rules in `AGENTS.md`.
 
+## Economy
+Every economy number lives in `Assets/Config/EconomyConfig.asset`, read through
+`Services.Config`. The numbers come from the economy sheet:
+[ZenGotchi economy sheet](https://docs.google.com/spreadsheets/d/1a0pGj1G0ExBrS3PheG2zJquY8BN0ihHaOKbcV0LCAM8/edit)
+
 ## Repo map
 | File | What it is |
 | --- | --- |
@@ -27,3 +32,4 @@ which needs Save) and then loads Home. Screens reach the services only through
 | `DECISIONS.md` | Every real decision the team made, and why |
 | `AGENTS.md` | Context for AI coding tools: architecture, rules, conventions |
 | `docs/architecture.png` | Architecture diagram: scenes, services, init order |
+| `CREDITS.md` | Sources and licenses of the art |
