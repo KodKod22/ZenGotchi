@@ -72,7 +72,6 @@ public class BallThrower : MonoBehaviour
         // 2 · hit or miss, against where the rim is right now
         Vector3 d = landing - rim.position;
         bool hit = Mathf.Abs(d.x) <= Hoops.hitToleranceX && Mathf.Abs(d.y) <= Hoops.hitToleranceY;
-        bool banked = false;
 
         // 2b · too high but on the board: it bounces off and slides down to the rim
         if (!hit && d.y > Hoops.hitToleranceY && OnBoard(landing))
@@ -84,9 +83,8 @@ public class BallThrower : MonoBehaviour
             }
             transform.position = new Vector3(landing.x, rim.position.y, 0f);
             d = transform.position - rim.position;
-            hit = banked = Mathf.Abs(d.x) <= Hoops.bankToleranceX;
+            hit = Mathf.Abs(d.x) <= Hoops.bankToleranceX;
         }
-        Debug.Log($"Shot: {(banked ? "BANK" : hit ? "HIT" : "miss")}, off by x {d.x:0.00}, y {d.y:0.00}");   // temporary, for tuning
 
         // 3 · fall: through the net, or past it
         Vector3 from = transform.position;
