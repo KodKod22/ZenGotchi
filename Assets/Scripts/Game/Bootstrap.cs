@@ -10,7 +10,7 @@ public class Bootstrap : MonoBehaviour
     void Awake()
     {
         DontDestroyOnLoad(gameObject);       // Services survives every scene change
-
+        Application.targetFrameRate = 30;
         // Start every service here, in order
         Services.Save = new PlayerPrefsSaveService();
         Services.Config = new ScriptableObjectConfigService(economy, hoops); 
