@@ -28,6 +28,13 @@ Who: Yuval
 
 <!-- Your entries start here -->
 
+## 2026-11-28 — Frame rate: 30 fps on purpose
+
+Options: 30 fps / 60 fps / 60 during animations and 30 when idle
+Chose: 30 fps, set in Bootstrap.Awake with Application.targetFrameRate — most of the time nothing much changes on the home screen, so 30 saves battery and heat without a felt difference. Measured on a Samsung A72: the game's own work is a few ms per frame, so 60 would also fit, but there is no need for it
+AI: Explained that Unity runs at 30 on Android by default, so before this the game ran at 30 only by accident. Offered 60 during animations or OnDemandRendering on idle screens — not used for now
+Who: Kody
+
 ## 2026-11-25 — Shop button at the bottom, next to Play
 
 Options: open the shop by tapping the coins (the 2026-11-07 decision) / a shop button at the top / a shop button at the bottom next to Play
